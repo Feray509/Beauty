@@ -1,0 +1,30 @@
+{
+  "name": "feray509/beauty",
+  "description": "html component",
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "^12.2"
+  },
+  "require": {
+    "php": ">=5.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Beauty\\": "src/",
+      "Tests\\": "tests/"
+    },
+    "files": [
+      "src/Utils/buffer.php",
+      "src/Utils/beauty.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "sebastien",
+      "email": "sebastienetienne291@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "version": "1.0.0"
+}
