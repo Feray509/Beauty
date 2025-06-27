@@ -8,6 +8,8 @@
   "require": {
     "php": ">=5.0"
   },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
   "license": "MIT",
   "autoload": {
     "psr-4": {
